@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2a2a2a;
+    background-size: cover;
+    color: #8a8a8a;
+    font-size: 18px;
+}
+.about{
+    text-align: center;
+    position: relative;
+    top: 9rem;
+  }
+
+.logo{
+  position: relative;
+  top: 6.5rem;
+  left: -6rem;
+  display: inline-block;
+}
+
+  #portfoliobtn{
+    position: relative;
+    top: 2rem;
+    left: 60rem;
+    background-color: #387dac;
+    color: #ffffff;
+    padding: 12px;
+    font-size: medium;
+    border-radius: 8px;
+ }
+
+
+  #portfoliobtn:hover{
+    background-color: #20577c;
+    cursor: pointer;
+  }
+
+#portfoliohead{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#portfoliosection{
+  text-align: center;
+  margin: 3rem;
+}
+
+  #portfoliosection .project {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 2rem;
+}
+
+#portfoliosection .project img {
+    max-width: 100%;
+    margin-right: 20px;
+    height: 15rem;
+    width: 40rem;
+    position: relative;
+    top: 2rem;
+}
+
+ #portfoliosection .project-info{
+  width: 50rem;
+  padding: 8px;
+} 
+
+#skillsection{
+  position: relative;
+  top: 2rem;
+  background-color: #1d1c1c;
+  height: 10rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5px;
+}
+
+.skills {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.skill {
+  padding: 10px;
+  color: #e6e0e0;
+  border: 1px solid #465050; 
+  border-radius: 5px;
+  background-color: #212222; 
+}
+
+.skill:hover{
+  background-color: #2b3131;
+  cursor: pointer;
+}
+
+#contactbtn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-color: #387dac;
+  color: #ffffff;
+  padding: 12px 20px;
+  font-size: 16px; 
+  border: none;
+  border-radius: 8px;
+  
+}
+
+#contactbtn:hover {
+  background-color: #20577c; 
+  cursor: pointer;
+}
+
+.contact-form {
+  height: 25rem;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #3a3939;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  left: 30rem;
+  top: 6rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #3b3a3a;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #387dac;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #20577c;
+}
